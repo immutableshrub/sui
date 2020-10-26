@@ -93,6 +93,25 @@
             </div>
             </script>
         </section>
+        
+        <section id="servers">
+            <script type="text/handlebars-template" id="servers-template">
+            <h3>Servers</h3>
+            <div id="apps_loop">
+                {{#servers}}
+                    <div class="apps_item">
+                        <div class="apps_icon">
+                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                        </div>
+                        <div class="apps_text">
+                            <a href="https://{{url}}">{{name}}</a>
+                            <span id="app-address">{{url}}</span>
+                        </div>
+                    </div>
+                {{/servers}}                         
+            </div>
+            </script>
+        </section>
 
          <section id="links">
             <script type="text/handlebars-template" id="links-template">
