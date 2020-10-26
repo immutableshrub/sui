@@ -195,7 +195,7 @@ table a{
 	z-index: 1;
 }
 
-#apps_loop{
+#apps_loop, #servers_loop{
 	border-bottom: 0px solid var(--color-text-acc);
 	display: grid;
 	grid-column-gap: 0px;
