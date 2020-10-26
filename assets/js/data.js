@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var mytemplate = Handlebars.compile(mysource);
       var myresult = mytemplate(data)
       document.getElementById("apps").innerHTML = myresult;
+      console.log("apps loaded");
     });
   fetch(data_servers)
   .then( response => response.json())
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var mytemplate = Handlebars.compile(mysource);
       var myresult = mytemplate(data)
       document.getElementById("servers").innerHTML = myresult;
+      console.log("servers loaded");
     });
 });
 
