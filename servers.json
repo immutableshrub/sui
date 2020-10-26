@@ -1,5 +1,5 @@
 {
-    "apps" : [
+    "servers" : [
         {"name":"Bazarr","url":"subs.example.com","icon":"message-video"},
         {"name":"CloudCMD","url":"files.example.com","icon":"folder-multiple-outline"},
         {"name":"Cockpit","url":"cp.example.com","icon":"airplane"},
