@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var data_apps = "apps.json";
+var data_servers = "servers.json";
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch(data_apps)
@@ -33,11 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
       var myresult = mytemplate(data)
       document.getElementById("apps").innerHTML = myresult;
     });
-});
-
-var data_servers = "servers.json";
-
-document.addEventListener("DOMContentLoaded", function () {
   fetch(data_servers)
   .then( response => response.json())
   .then(
