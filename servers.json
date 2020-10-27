@@ -2,6 +2,7 @@
     "servers" : [
         {"name":"Auburn Server","url":"files.local","icon":"atom-variant"},
         {"name":"Albany Server","url":"archive.local","icon":"nas"},
-        {"name":"Batersea Server","url":"backup.local","icon":"database"}
+        {"name":"Batersea Server","url":"backup.local","icon":"database"},
+        {"name":"Alexandria Server","url":"alexandria.local","icon":"widgets"}
     ]
 }
