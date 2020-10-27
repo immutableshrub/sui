@@ -38,25 +38,6 @@
                 <button data-theme="paper" class="theme-button theme-paper">Paper</button>
             </div>
 
-            <h2>Search options</h2>
-
-            <section id="providers">
-                <script type="text/handlebars-template" id="providers-template">
-                    <table>
-                        <tr>
-                            <th>Website</th>
-                            <th>Prefix</th>
-                        </tr>
-                        {{#providers}}
-                        <tr>
-                            <td><a href="{{url}}">{{name}}</a></td>
-                            <td>{{prefix}}</td>
-                        </tr>
-                        {{/providers}}
-                    </table>
-                </script>
-            </section>
-
             <header id="modal-footer">
                 <a href="https://github.com/jeroenpardon/"><span class="iconify" data-icon="mdi-github-box"></span></a>
                 <a href="https://materialdesignicons.com/"><span class="iconify" data-icon="mdi-material-design"></a></span>
@@ -65,11 +46,7 @@
     </section>    
 
     <main id="container" class="fade">
-
-        <section id="search">
-            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)">
-        </section>
-            
+        
         <section id="header">
             <h2 id="header_date"></h2>
             <h1 id="header_greet"></h1>
