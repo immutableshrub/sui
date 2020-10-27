@@ -1,8 +1,8 @@
 {
     "servers" : [
-        {"name":"Auburn Server","url":"files.local","icon":"atom-variant"},
-        {"name":"Albany Server","url":"archive.local","icon":"nas"},
-        {"name":"Batersea Server","url":"backup.local","icon":"database"},
+        {"name":"Auburn Server","url":"auburn.local","icon":"atom-variant"},
+        {"name":"Albany Server","url":"albany.local","icon":"nas"},
+        {"name":"Battersea Server","url":"battersea.local","icon":"database"},
         {"name":"Alexandria Server","url":"alexandria.local","icon":"widgets"}
     ]
 }
