@@ -182,7 +182,7 @@ table a{
 	justify-items: stretch;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5vh;
+	margin-top: calc(5vh + 150px);
 	width: 60%;
 }
 
