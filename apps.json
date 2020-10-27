@@ -1,5 +1,6 @@
 {
     "apps" : [
-        {"name":"ShiBot","url":"shibot.docker.alexandria.local","serverName":"Alexandria Server","icon":"discord"}
+        {"name":"Compile Server","url":"jscompile.docker.alexandria.local","serverName":"Alexandria Server","icon":"code-tags-check"},
+        {"name":"ShiBot","url":"shibot.docker.alexandria.local","serverName":"Alexandria Server","icon":"discord"},
     ]
 }
